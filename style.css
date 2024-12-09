@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
-    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
-    font-weight: 800;
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
+    src: local('Gilroy Light'), local('Gilroy-Light'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 .gilroy{
@@ -13,4 +13,193 @@
 }
 .rubik{
     font-family: "Rubik", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #131313;
+    color: white;
+    border: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 100px 90px;
+    align-items: center;
+    justify-content: space-between;
+    width: 1720px;
+    height: 50px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 782px;
+    height: 22px;
+}
+.a-head{
+    font-size: 18px;
+    font-weight: 500;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.main-all{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.main-texts{
+    display: flex;
+    flex-direction: column;
+}
+.moreteam{
+    width: 116px;
+    color: #EDBC5A;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.name{
+    text-align: end;
+    font-size: 75px;
+    font-weight: 500;
+    margin: 20px 0 40px;
+}
+.main-text{
+    color: #B0B0B0;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 29px;
+    margin-bottom: 60px;
+}
+.main-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.main-block{
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    height: 178px;
+    border-bottom: 1px solid white;
+}
+.h-main{
+    font-size: 28px;
+}
+.a-block{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+}
+.a-main{
+    font-size: 16px;
+    color: #B0B0B0;
+}
+.ag-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 30px;
+}
+.ag-main{
+    font-size: 18px;
+    width: 110px;
+    color: #B0B0B0;
+}
+.location{
+    background-color: white;
+}
+.button-contactus{
+    font-size: 16px;
+    margin-top: 60px;
+    color: #141414;
+    background-color: white;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+}
+.analitic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 140px 105px 140px 0 ;
+}
+.analitic-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers{
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 120px;
+    margin-bottom: 30px;
+}
+.numberstext{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+footer{
+    margin: 0 122px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 325px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-bottom: 80px;
+}
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.alla-footer{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.a-footer{
+    font-size: 14px;
+}
+.h-footer{
+    font-size: 28px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 305px;
+    height: 110px;
+    border-bottom: 1px solid white;
+}
+.button-footer{
+    margin: 50px 20px 130px 160px;
+    color: #141414;
+    background-color: white;
+    font-weight: 700;
+    font-size: 28px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.arrow{
+    background-color: white;
+}
+.watermark{
+    color: #141414;
+    background-color: #B0B0B0;
+    font-size: 12px;
 }
