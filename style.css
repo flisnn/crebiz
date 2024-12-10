@@ -1,15 +1,20 @@
 @font-face {
-    font-family: 'Gilroy';
-    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot');
-    src: local('Gilroy Light'), local('Gilroy-Light'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.woff') format('woff'),
-    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+    font-family: 'Gilroy-semi-bold';
+    src: url('fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2'),
+         url('fonts/Gilroy/Gilroy-Semibold.woff') format('woff');
+    font-weight: normal;
 }
-.gilroy{
-    font-family: 'Gilroy';
+@font-face {
+    font-family: 'Gilroy-bold';
+    src: url('fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+         url('fonts/Gilroy/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+}
+.gilroy-semibold{
+    font-family: 'Gilroy-Semibold', sans-serif;
+}
+.gilroy-bold{
+    font-family: 'Gilroy-Bold', sans-serif;
 }
 .rubik{
     font-family: "Rubik", serif;
@@ -41,7 +46,6 @@ header{
 }
 .a-head{
     font-size: 18px;
-    font-weight: 500;
 }
 .main{
     display: flex;
@@ -58,22 +62,19 @@ header{
     flex-direction: column;
 }
 .moreteam{
-    width: 116px;
+    width: 118px;
     color: #EDBC5A;
     font-size: 16px;
     letter-spacing: 3px;
-    font-weight: 100;
 }
 .name{
     text-align: end;
     font-size: 75px;
-    font-weight: 500;
     margin: 20px 0 40px;
 }
 .main-text{
     color: #B0B0B0;
     font-size: 16px;
-    font-weight: 100;
     line-height: 29px;
     margin-bottom: 60px;
 }
@@ -116,6 +117,7 @@ header{
 }
 .location{
     background-color: white;
+    margin-right: 10px;
 }
 .button-contactus{
     font-size: 16px;
@@ -138,7 +140,6 @@ header{
     align-items: center;
 }
 .numbers{
-    font-weight: 900;
     font-size: 120px;
     line-height: 120px;
     margin-bottom: 30px;
@@ -189,17 +190,22 @@ footer{
     margin: 50px 20px 130px 160px;
     color: #141414;
     background-color: white;
-    font-weight: 700;
-    font-size: 28px;
+    font-size: 20px;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 .arrow{
+    margin-left: 9px;
     background-color: white;
 }
 .watermark{
+    letter-spacing: 2.5px;
+    text-align: center;
+    width: 322px;
+    height: 24px;
     color: #141414;
     background-color: #B0B0B0;
+    line-height: 24px;
     font-size: 12px;
 }
